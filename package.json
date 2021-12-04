@@ -18,9 +18,13 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+
+    "rules": {
+      "import/no-anonymous-default-export": "off"
+    },
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest"   
     ]
   },
   "browserslist": {
